@@ -1,0 +1,16 @@
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.SERVICE\bin\Debug\net8.0\EmployeeManagement.SERVICE.deps.json
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.SERVICE\bin\Debug\net8.0\EmployeeManagement.SERVICE.dll
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.SERVICE\bin\Debug\net8.0\EmployeeManagement.SERVICE.pdb
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.SERVICE\bin\Debug\net8.0\EmployeeManagement.CORE.dll
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.SERVICE\bin\Debug\net8.0\EmployeeManagement.CORE.pdb
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.SERVICE\obj\Debug\net8.0\EmployeeManagement.SERVICE.csproj.AssemblyReference.cache
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.SERVICE\obj\Debug\net8.0\EmployeeManagement.SERVICE.GeneratedMSBuildEditorConfig.editorconfig
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.SERVICE\obj\Debug\net8.0\EmployeeManagement.SERVICE.AssemblyInfoInputs.cache
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.SERVICE\obj\Debug\net8.0\EmployeeManagement.SERVICE.AssemblyInfo.cs
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.SERVICE\obj\Debug\net8.0\EmployeeManagement.SERVICE.csproj.CoreCompileInputs.cache
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.SERVICE\obj\Debug\net8.0\Employee.D905670B.Up2Date
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.SERVICE\obj\Debug\net8.0\EmployeeManagement.SERVICE.dll
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.SERVICE\obj\Debug\net8.0\refint\EmployeeManagement.SERVICE.dll
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.SERVICE\obj\Debug\net8.0\EmployeeManagement.SERVICE.pdb
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.SERVICE\obj\Debug\net8.0\ref\EmployeeManagement.SERVICE.dll
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.SERVICE\obj\Debug\net8.0\EmployeeManagement.SERVICE.sourcelink.json

@@ -1,0 +1,13 @@
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.CORE\bin\Debug\net8.0\EmployeeManagement.CORE.deps.json
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.CORE\bin\Debug\net8.0\EmployeeManagement.CORE.dll
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.CORE\bin\Debug\net8.0\EmployeeManagement.CORE.pdb
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.CORE\obj\Debug\net8.0\EmployeeManagement.CORE.csproj.AssemblyReference.cache
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.CORE\obj\Debug\net8.0\EmployeeManagement.CORE.GeneratedMSBuildEditorConfig.editorconfig
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.CORE\obj\Debug\net8.0\EmployeeManagement.CORE.AssemblyInfoInputs.cache
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.CORE\obj\Debug\net8.0\EmployeeManagement.CORE.AssemblyInfo.cs
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.CORE\obj\Debug\net8.0\EmployeeManagement.CORE.csproj.CoreCompileInputs.cache
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.CORE\obj\Debug\net8.0\EmployeeManagement.CORE.dll
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.CORE\obj\Debug\net8.0\refint\EmployeeManagement.CORE.dll
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.CORE\obj\Debug\net8.0\EmployeeManagement.CORE.pdb
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.CORE\obj\Debug\net8.0\ref\EmployeeManagement.CORE.dll
+D:\שירה\תכנות\practicum\Employee  management app\EmployeeManagementServer\EmployeeManagement.CORE\obj\Debug\net8.0\EmployeeManagement.CORE.sourcelink.json

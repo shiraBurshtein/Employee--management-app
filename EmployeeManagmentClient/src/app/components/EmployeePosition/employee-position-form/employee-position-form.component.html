@@ -1,0 +1,37 @@
+<form [formGroup]="positionForm" (ngSubmit)="onSubmit()">
+  <div mat-dialog-content>
+    <div>
+      <mat-form-field appearance="fill" class="position-field">
+        <mat-label>Position</mat-label>
+        <mat-select formControlName="positionName" placeholder="Select Position" class="position-select">
+          <mat-option *ngFor="let pos of positions" [value]="pos.positionName"
+            [disabled]="isPositionDisabled(pos.positionName)">
+            {{ pos.positionName }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div>
+      <mat-form-field>
+        <mat-label>entry date</mat-label>
+        <input matInput [matDatepicker]="picker" formControlName="entryDate">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+      <mat-error *ngIf="positionForm.get('entryDate').hasError('invalidEntryDate')">
+        The entered date is invalid or before the employee's existing entry date.
+      </mat-error>   
+    </div>
+  </div>
+
+
+<div>
+  <mat-slide-toggle formControlName="isManagement" color="primary"
+    class="position-toggle">Administrative</mat-slide-toggle>
+  </div>
+<br>
+  <div mat-dialog-actions>
+    <!-- <button mat-button type="submit" [disabled]="!positionForm.valid">Add</button> -->
+    <button mat-raised-button color="primary" type="submit" [disabled]="!positionForm.valid">submit</button>
+  </div>
+</form>
