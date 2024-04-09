@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
-import { Employee} from '../../../models/employee.model';
-import { EmployeeService } from '../../../services/employee-service.service';
 import { Route, Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
@@ -15,6 +13,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatTableModule } from '@angular/material/table';
 import { EmployeeFormComponent } from "../employee-form/employee-form.component";
+import { Employee} from '../../../models/employee.model';
+import { EmployeeService } from '../../../services/employee-service.service';
 
 @Component({
     selector: 'app-add-employee',

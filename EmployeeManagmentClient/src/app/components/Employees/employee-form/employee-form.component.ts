@@ -1,11 +1,3 @@
-import { MatDialog } from '@angular/material/dialog';
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup, Validators, FormArray, FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { Employee } from '../../../models/employee.model';
-import { Router } from '@angular/router';
-import { Position } from '../../../models/position.model';
-import { AddPositionToEmployeeComponent } from '../../EmployeePosition/add-position-to-employee/add-position-to-employee.component';
-import { EmployeePositionDetailsComponent } from '../../EmployeePosition/employee-position-details/employee-position-details.component';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { MatButtonModule } from '@angular/material/button';
@@ -17,7 +9,16 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatTableModule } from '@angular/material/table';
-// import {Swal} from 'sweetalert2';
+import { MatDialog } from '@angular/material/dialog';
+import { Router } from '@angular/router';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { FormBuilder, FormControl, FormGroup, Validators, FormArray, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { Employee } from '../../../models/employee.model';
+import { Position } from '../../../models/position.model';
+import { AddPositionToEmployeeComponent } from '../../EmployeePosition/add-position-to-employee/add-position-to-employee.component';
+import { EmployeePositionDetailsComponent } from '../../EmployeePosition/employee-position-details/employee-position-details.component';
+
+
 @Component({
   selector: 'app-employee-form',
   standalone: true,
@@ -72,26 +73,6 @@ export class EmployeeFormComponent implements OnInit {
 
   openAddPositionDialog(): void {
 
-
-    if (!this.employeeForm.valid) {
-      // Swal.fire({
-      //   title: 'Are you sure?',
-      //   text: 'You will not be able to recover this data!',
-      //   icon: 'warning',
-      //   showCancelButton: true,
-      //   confirmButtonText: 'Yes, delete it!',
-      //   cancelButtonText: 'Cancel',
-      // }).then((result) => {
-      //   if (result.isConfirmed) {
-      //     // Perform your action here if confirmed
-      //     Swal.fire(
-      //       'Deleted!',
-      //       'Your data has been deleted.',
-      //       'success'
-      //     );
-      //   }
-      // });
-    }
     const dialogRef = this.dialog.open(AddPositionToEmployeeComponent, {
       width: '500px',
       data: { employee: this.employee } // נתונים שתעבירי לדיאלוג, אם ישנם
@@ -120,7 +101,7 @@ export class EmployeeFormComponent implements OnInit {
 
   onCancel(): void {
     this.router.navigate(["/employees"]);
-    console.log("canc")
+
   }
 }
 

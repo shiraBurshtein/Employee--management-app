@@ -2,11 +2,11 @@ import { Component, Input, OnInit } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { CommonModule, DatePipe } from '@angular/common';
+import { MatDialog } from '@angular/material/dialog';
 import { EmployeePosition } from '../../../models/EmployeePosition.model';
 import { PositionService } from '../../../services/position-service.service';
 import { Position } from '../../../models/position.model';
 import { EditEmployeePositionComponent } from '../edit-employee-position/edit-employee-position.component';
-import { MatDialog } from '@angular/material/dialog';
 import { Employee } from '../../../models/employee.model';
 
 

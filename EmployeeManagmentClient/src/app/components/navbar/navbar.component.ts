@@ -15,25 +15,7 @@ export class NavbarComponent {
 constructor(private router:Router){
 
 }
-// toRegister() {
-//   this.router.navigate(["/register"]);
 
-// }
-// toLogin() {
-//   this.router.navigate(["/signin"]);
-// }
-// toLogout() { 
-//   if(sessionStorage.getItem("connect")!=null && sessionStorage.getItem("connect")=="true"){
-//      Swal.fire({
-//     title: ' good bye ',
-//   });
-//   }
-
-//   sessionStorage.setItem('connect',"false");
-  
- 
-//   this.router.navigate(["/signin"]);
-// }
 toAddEmployee() {
   this.router.navigate(["/employees/add"]);
 }

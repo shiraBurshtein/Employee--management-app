@@ -1,8 +1,8 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { HttpClientModule } from '@angular/common/http';
 import { Employee } from '../../../models/employee.model';
 import { EmployeePositionFormComponent } from '../employee-position-form/employee-position-form.component';
-import { HttpClientModule } from '@angular/common/http';
 import { EmployeePosition } from '../../../models/EmployeePosition.model';
 
 

@@ -9,9 +9,7 @@
       <mat-label>lastName</mat-label>
       <input matInput placeholder="Last Name" formControlName="lastName">
     </mat-form-field>
-  </div>
 
-  <div class="form-group">
     <mat-form-field class="example-full-width">
       <mat-label>identity</mat-label>
       <input matInput placeholder="Identity" formControlName="identity">
@@ -23,9 +21,7 @@
       <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
       <mat-datepicker #picker></mat-datepicker>
     </mat-form-field>
-  </div>
 
-  <div class="form-group">
     <mat-form-field class="example-full-width">
       <mat-label>gender</mat-label>
       <mat-select formControlName="gender">
@@ -51,7 +47,7 @@
  
 
   <button mat-button color="primary" type="submit">submit</button>
-  <button mat-button color="primary" type="cancel">cancel</button>
+  <button mat-button color="primary" type="cancel" (click)="onCancel()">cancel</button>
 </div>
 </form>
 

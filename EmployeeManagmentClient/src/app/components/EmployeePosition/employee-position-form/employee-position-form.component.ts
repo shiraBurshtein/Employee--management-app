@@ -66,7 +66,7 @@ export class EmployeePositionFormComponent implements OnInit {
 
     this.positionForm = this.formBuilder.group({
       positionName: [this.employeePosition.positionName, Validators.required],
-      isManagement: [this.employeePosition.isManagement, Validators.required,Validators.maxLength(9),Validators.minLength(9)],
+      isManagement: [this.employeePosition.isManagement, Validators.required],
       entryDate: [this.employeePosition.entryDate, Validators.required]
 
     });
